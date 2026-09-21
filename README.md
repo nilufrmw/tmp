@@ -16,7 +16,7 @@ struct Point {
 };
 ```
 
-Now imagine a rectangle. A rectangle can be uniquely defined with 2 points (2 corners to be specific). So let's represent a rectangle in code.
+Now imagine a rectangle. A rectangle can be uniquely defined with 2 points (2 opposite corners to be specific). So let's represent a rectangle in code.
 
 ```c
 struct Rectangle {
