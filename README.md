@@ -7,8 +7,7 @@ Say we're writing a program to solve a geometry problem in C.
 
 You can think `struct` as something used for grouping related data together. 
 
-let's represent a point in 2D in code. A point consists of 2 co-ordinates 
-`x` and `y`. (integer co-ordinates for now)
+let's represent a point in 2D in code. A point consists of 2 co-ordinates (assumption: all rectangles we are working with is parallel to co-ordinate axes) `x` and `y`. (integer co-ordinates for now)
 
 ```c
 struct Point {
