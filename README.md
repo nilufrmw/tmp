@@ -1,7 +1,7 @@
 I'm no expert, by so far with my understanding here is my explanation.
 Also I will avoid embedded related stuff.
 
-Say we're writing some program to solve some geometry problem in C.
+Say we're writing a program to solve some geometry problem in C.
 
 ### struct
 
