@@ -47,7 +47,7 @@ Rectangle rect;
 To understand pointers in general, we have to talk about memory. Think of computer's memory as a shelf of storage boxes. 
 
 - Normal variable: a box holding actual data
-- Pointer variable: a box holding a note with the location of another box
+- Pointer variable: a box holding location of another box
 
 `&` : Where is this box located? <br>
 `*` : open that box (more on this `*` symbol below)
