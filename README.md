@@ -39,6 +39,6 @@ typedef struct {
   Point bottom_right;
 } Rectangle;
 
-// declaring a Rectangle also clean
+// declaring clean too
 Rectangle rect;
 ```
