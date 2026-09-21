@@ -65,22 +65,11 @@ int *ptr = &score; // box 'ptr' holds the location of 'score'
 in `*ptr = 100;` `*` tells hey go to the (called dereferencing) box that's pointed by this `ptr` box and replacement in this case with value 100.
 
 now what are some use cases of pointers? 
-- arrays
+- with arrays
 - with functions
 - dynamic memory allocation
 - complex data structures like linked list, trees, ...
 - ... more
 
-I can describe the first two.
+I can describe the pointers with functions.
 
-#### array
-When we declare an array like `int scores[3] = {10, 20, 30};`, the computer reserves three boxes next to each other in memory.
-<pre>
--+------+------+------+--
- |  10  |  20  |  30  |
--+------+------+------+--
- ^
- scores points here
-</pre>
-
-You can explore why it's pointing to a border rather than the box later. These boxes are kind of abstract concept.
