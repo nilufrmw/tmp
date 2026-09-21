@@ -50,7 +50,7 @@ To understand pointers in general, we have to talk about memory. Think of comput
 - Pointer variable: a box holding a note with the location of another box
 
 `&` : Where is this box located? <br>
-`*` : open that box (more on this * symbol below)
+`*` : open that box (more on this `*` symbol below)
 
 ```c
 int score = 42;    // box 'score' holds 42
