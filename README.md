@@ -20,7 +20,7 @@ Now imagine a rectangle. A rectangle can be uniquely defined with 2 points (2 co
 
 ```c
 struct Rectangle {
-  // you can take any opposite corners
+  // take any opposite corners
   struct Point top_left;
   struct Point bottom_right;
 }
