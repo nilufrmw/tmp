@@ -60,4 +60,15 @@ int *ptr = &score; // box 'ptr' holds the location of 'score'
 // score is now 100
 ```
 
-`*` has different meaning depending on where it appears. in `int *ptr = &score;` `*` tells to compiler "hey this is not a normal box having a regular data, rather it contains location of another box that has an integer data inside". We place address of ( `&`) score box inside this pointer box. 
+`*` has different meaning depending on where it appears. in `int *ptr = &score;` `*` tells to compiler "hey this is not a normal box having a regular data, rather it contains location of another box that has an integer data inside". We place address of ( `&`) score box inside this pointer box.
+
+in `*ptr = 100;` `*` tells hey go to the (called dereferencing) box that's pointed by this `ptr` box and replacement in this case with value 100.
+
+now what are some use cases of pointers? 
+- arrays
+- with functions
+- dynamic memory allocation
+- complex data structures like linked list, trees, ...
+- ... more
+
+I can describe the first two.
