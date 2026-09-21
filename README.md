@@ -71,5 +71,9 @@ now what are some use cases of pointers?
 - complex data structures like linked list, trees, ...
 - ... more
 
-I can describe the pointers with functions.
+I can talk about pointers with functions. (feel free to explore other things)
+
+In C, functions only receive copies by default. Back to our geometry problem.
+
+Why pass a pointer to modify: If you write a function to shift our rectangle across the screen, passing `Rect` directly means the function only moves the duplicate/copied value. The original stays where it was (original data is not changed).
 
