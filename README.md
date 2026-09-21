@@ -75,5 +75,28 @@ I can talk about pointers with functions. (feel free to explore other things)
 
 In C, functions only receive copies by default. Back to our geometry problem.
 
-Why pass a pointer to modify: If you write a function to shift our rectangle across the screen, passing `Rect` directly means the function only moves the duplicate/copied value. The original stays where it was (original data is not changed).
+Why pass a pointer to modify: If you write a function to shift our rectangle across the screen, passing `rect` directly means the function only moves the duplicate/copied value. The original stays where it was (original data is not changed).
 
+```c
+// takes a pointer so it modifies the original rectangle
+void move_right(Rectangle *r, int offset) {
+  r->top_left.x += offset;
+  r->bottom_right.x += offset;
+}
+
+int main(void) {
+  Rectangle rect = {
+    .top_left = { .x = 0, .y = 10 },
+    .bottom_right = { .x = 20, .y = 0 }
+  };
+    
+  // pass the memory address using '&'
+  move_right(&rect, 5);
+
+  // rectangle now shifted to right by 5 units
+
+  return 0;
+}
+```
+
+Passing by reference is a efficient in terms of memory usage compared passing by value too.
