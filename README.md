@@ -101,4 +101,4 @@ int main(void) {
 <img src="initial.png" width="300">
 <img src="final.png" width="300">
 
-Passing by reference is fficient in terms of memory usage compared to passing by value too.
+Passing by reference is efficient in terms of memory usage compared to passing by value too.
