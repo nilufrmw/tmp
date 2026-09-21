@@ -42,3 +42,23 @@ typedef struct {
 // declaration clean too
 Rectangle rect;
 ```
+
+### pointers 
+To understand pointers in general, we have to talk about memory. Think of computer's memory as a shelf of storage boxes. 
+
+- Normal variable: a box holding actual data
+- Pointer variable: a box holding a note with the location of another box
+
+& = Where is this box located?
+\* = open that box (more on this * symbol below)
+
+```c
+int score = 42;    // box 'score' holds 42
+int *ptr = &score; // box 'ptr' holds the location of 'score'
+
+*ptr = 100; // open the box 'ptr' points to and change it to 100
+// score is now 100
+```
+
+\* has different meaning depending on where it appears.
+  
