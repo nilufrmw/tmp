@@ -99,4 +99,4 @@ int main(void) {
 }
 ```
 
-Passing by reference is fficient in terms of memory usage compared passing by value too.
+Passing by reference is fficient in terms of memory usage compared to passing by value too.
