@@ -72,3 +72,15 @@ now what are some use cases of pointers?
 - ... more
 
 I can describe the first two.
+
+#### array
+When we declare an array like `int scores[3] = {10, 20, 30};`, the computer reserves three boxes next to each other in memory.
+<pre>
+-+------+------+------+--
+ |  10  |  20  |  30  |
+-+------+------+------+--
+ ^
+ scores points here
+</pre>
+
+You can explore why it's pointing to a border rather than the box later. These boxes are kind of abstract concept.
