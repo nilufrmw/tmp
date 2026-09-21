@@ -60,4 +60,4 @@ int *ptr = &score; // box 'ptr' holds the location of 'score'
 // score is now 100
 ```
 
-`*` has different meaning depending on where it appears. in `int *ptr = &score;` `*` tells to compiler "hey this is a normal box having a regular data, rather it contains location of another box that has an integer data inside. We place address of ( `&`) score box inside this pointer box. 
+`*` has different meaning depending on where it appears. in `int *ptr = &score;` `*` tells to compiler "hey this is not a normal box having a regular data, rather it contains location of another box that has an integer data inside". We place address of ( `&`) score box inside this pointer box. 
