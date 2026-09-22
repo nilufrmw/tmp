@@ -1,4 +1,4 @@
-I'm no expert. Based oh my understanding so far here is my explanation.
+I'm no expert. Based on my understanding so far here is my explanation.
 Also I will avoid embedded related stuff.
 
 Say we're writing a program to solve a geometry problem in C.
