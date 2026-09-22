@@ -102,8 +102,8 @@ int main(void) {
 }
 ```
 
-<img src="initial.png" width="300">
-<img src="final.png" width="300">
+<img src="initial.png" width="400">
+<img src="final.png" width="400">
 
 Passing by reference is efficient in terms of memory usage compared to passing by value too.
 
@@ -114,5 +114,5 @@ note:
 
 ### suggestions
 <pre>Credit: mk (__mk.__)</pre>
-<img src="1.jpg">
-<img src="2.jpg">
+<img src="1.jpg" width="600">
+<img src="2.jpg" width="600">
