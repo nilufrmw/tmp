@@ -3,7 +3,7 @@ Also I will avoid embedded related stuff.
 
 Say we're writing a program to solve a geometry problem in C.
 
-*note*: this link was shared on a embedded community discord. I have attached some things to aware of below that got suggested from the server.
+**note**: this link was shared on a embedded community discord. I have attached some things to aware of below that got suggested from the server.
 
 ### struct
 
