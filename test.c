@@ -23,6 +23,7 @@ int main(void) {
   printf("top-left: (%d, %d)\n", rect.top_left.x, rect.top_left.y);
   printf("bottom-right: (%d, %d)\n", rect.bottom_right.x, rect.bottom_right.y);
   printf("\n");  
+  
   // pass the memory address using '&'
   // shift rectangle to right by 5 units
   move_right(&rect, 5);
