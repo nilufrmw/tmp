@@ -106,5 +106,6 @@ int main(void) {
 Passing by reference is efficient in terms of memory usage compared to passing by value too.
 
 note: 
-  1. use light theme to see images correctly
+  1. use light theme to see images correctly (as
+     I'm using transparent image. Will change)
   2. the arrow in this `r->top_left` is a shorthand for `(*r).top_left`
