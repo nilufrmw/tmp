@@ -114,5 +114,5 @@ note:
 
 ### suggestions
 <pre>Credit: mk (__mk.__)</pre>
-<img src="1.jpg" width="600">
-<img src="2.jpg" width="600">
+<img src="images/1.jpg" width="600">
+<img src="images/2.jpg" width="600">
