@@ -111,3 +111,8 @@ note:
   1. use light theme to see images correctly (as
      I'm using transparent image. Will change)
   2. the arrow in this `r->top_left` is a shorthand for `(*r).top_left`
+
+### Suggestions
+<pre>Credit: mk (__mk.__)</pre>
+<img src="comment-1.jpg" width="300">
+<img src="comment-2.jpg" width="300">
