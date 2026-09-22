@@ -3,7 +3,7 @@ Also I will avoid embedded related stuff.
 
 Say we're writing a program to solve a geometry problem in C.
 
-**note**: this link was shared on an embedded community (discord). I have attached some things to aware of below that got suggested from the server.
+**note**: this link was shared on an embedded community (discord). I have attached some things to aware of [below](#suggestions) that got suggested from the server. 
 
 ### struct
 
@@ -112,7 +112,7 @@ note:
      I'm using transparent image. Will change)
   2. the arrow in this `r->top_left` is a shorthand for `(*r).top_left`
 
-### Suggestions
+### suggestions
 <pre>Credit: mk (__mk.__)</pre>
 <img src="1.jpg">
 <img src="2.jpg">
